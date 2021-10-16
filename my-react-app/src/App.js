@@ -4,28 +4,11 @@ import Article from './components/Article.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          テストテスト
-        </p>
-        <div>
-          <Article
-          />
-        </div>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Article
+        title={'タイトル'}
+        content={'コンテント'}
+      />
     </div>
   );
 }

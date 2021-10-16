@@ -1,4 +1,4 @@
 const Content = (props) => {
-  return <p>{props.Content}</p>
+  return <p>{props.content}</p>
 }
 export default Content;
