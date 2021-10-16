@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Article from './components/Article.jsx';
 
 function App() {
   return (
@@ -12,6 +13,12 @@ function App() {
         <p>
           テストテスト
         </p>
+        <div>
+          <Article
+            title='タイトル'
+            content={'123 コンテント test'}
+          />
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
