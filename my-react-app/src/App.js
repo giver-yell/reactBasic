@@ -15,8 +15,6 @@ function App() {
         </p>
         <div>
           <Article
-            title='タイトル'
-            content={'123 コンテント test'}
           />
         </div>
         <a
