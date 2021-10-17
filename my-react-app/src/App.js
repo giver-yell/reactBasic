@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Article from './components/Article.jsx';
-import TextInput from './components/TextInput.jsx';
+import {TextInput, Article, Counter, ToggleButton} from './components';
 
 function App() {
   return (
@@ -11,6 +10,8 @@ function App() {
         content={'コンテント'}
       />
       <TextInput />
+      <Counter />
+      <ToggleButton />
     </div>
   );
 }
