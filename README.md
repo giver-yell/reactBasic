@@ -23,6 +23,16 @@ npmもインストールされる
 `$ nodebrew ls`  
 5. 最新版を指定  
 `$ nodebrew use [バージョン]`
+### nodeの環境パスを通す
+1. 使用しているSHELLの確認
+`$ echo $SHELL`  
+2. パスを通す  
+- zshの場合  
+`$ echo 'export PATH=$HOME/ .nodebrew/current/bin:$PATH' >> ~/.zprofile`  
+- bashの場合  
+`$ echo 'export PATH=$HOME/ .nodebrew/current/bin:$PATH' >> ~/.bash_profile`  
+3. ターミナルの再起動で変更を反映
+
 
 
 ### 参考URL
