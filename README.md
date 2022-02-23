@@ -33,8 +33,9 @@ npmもインストールされる
 `$ echo 'export PATH=$HOME/ .nodebrew/current/bin:$PATH' >> ~/.bash_profile`  
 3. ターミナルの再起動で変更を反映
 
-
-
 ### 参考URL
 - YouTubu #03 新・日本一わかりやすいReact入門【基礎編】create-react-appで環境構築   
 https://www.youtube.com/watch?v=Ym4If5W9SS0
+
+### React Developer Tools
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=ja
