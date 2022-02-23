@@ -39,3 +39,8 @@ https://www.youtube.com/watch?v=Ym4If5W9SS0
 
 ### React Developer Tools
 https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=ja
+#### 拡張機能を管理
+- 「ファイルのURLへのアクセスを許可する」をON  
+
+- bashの場合  UR
+- bashの場合  
